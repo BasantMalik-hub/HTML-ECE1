@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="./response.html" target="_blank" name="biodata" method="get"></form>
+    <fieldset>
+        <legend>biodata</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="enter your name" required><br><br>
+        <label for="DOB">DOB:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        <label for="Attemt">Attemt</label>
+        <input type="number" id="Attemt" name="Attemt" min="1" max="10" required><br><br>
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" placeholder="enter you email" required><br><br>
+        <label for="tel">phone</label>
+        <input type="tel" id="tel" name="tel" placeholder="enter your phone number" required><br><br><br>
+        <label for="address">address:</label>
+        <textarea name="text" id="add" rows="3" cols="50"></textarea><br><br>
+        <label for="gender">gender:</label>
+        <input type="radio" name="gender" id="male" value="male" required>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="female" value="female" required>
+        <label for="female">female</label><br><br>
+        <label for="check">vehicle you have</label>
+        <input type="checkbox" name="vehicle" id="bike" value="bike">
+        <label for="bike">bike</label>
+        <input type="checkbox" name="vehicle" id="car" value="car">
+        <label for="car">bike</label><br><br>
+        <label for="password">password</label>
+        <input type="password" name="pass" id="pass" placeholder="enter your password" required><br><br>
+        <label for="select">select your programming language:</label>
+     <select name="select" id="select">
+      <option>select you option</option>
+      <optgroup label="programming language"> 
+     <option value="c">c</option>
+     <option value="c++">c++</option>
+     <option value="java">java</option>
+     </optgroup> 
+     <optgroup label="frontend technology">
+     <option value="html">html</option>
+     <option value="css">css</option>
+     <option value="java script">java script</option>  
+     </optgroup> 
+     <label for="file">file uploaded</label>
+     <input type="file" name="file" id="file" required>
+     <br><br>
+     <label for="appoint">apppointment</label>
+     <input type="time" name="appoint" id="appoint" required>
+     </select>                                                                                                                                                                            
+    </fieldset>
+</body>
+</html>
